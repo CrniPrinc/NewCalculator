@@ -1,0 +1,30 @@
+.input {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.select {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  background-color: rgb(50, 122, 230);
+  color: white;
+}
+
+.button {
+  width: 45%;
+  height: 5vh;
+  border-radius: 10px;
+  background-color: rgb(50, 122, 230);
+  color: black;
+  text-transform: capitalize;
+}
+
+
+.button[disabled] {
+  background-color: rgb(172, 167, 167);
+}
+
+.gross, .net {
+  background-color: rgb(50, 122, 230) !important;
+  color: white;
+}

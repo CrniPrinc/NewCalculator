@@ -1,0 +1,14 @@
+.tabButton {
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    width: 2vw;
+    height: 15vh;
+    text-align: center;
+}
+
+.tabPanel[class~='react-tabs__tab-panel--selected'] {
+    width: 100%;
+    box-shadow: 3px 4px 20px 1px rgb(0 0 0 / 2%),
+        3px 2px 20px 2px rgb(0 0 0 / 6%);
+    border-radius: 15px;
+}

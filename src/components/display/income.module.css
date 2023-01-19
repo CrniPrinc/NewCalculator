@@ -1,0 +1,22 @@
+.button {
+    width: 10vw;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: rgb(50, 122, 230);
+    color: white;
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+
+.select {
+    background: transparent;
+    color: black;
+    appearance: none;
+    padding: 0;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: underline;
+}

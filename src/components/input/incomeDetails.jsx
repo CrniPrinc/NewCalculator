@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../../app.css';
 import styles from './incomeDetails.module.css';
 
